@@ -23,8 +23,8 @@ vector<string>v;      //暂存转换表
 bool read(){
    // input.open("./DFA_in1.dfa.txt");
    //input.open("./DFA_in2.dfa.txt");
-   input.open("./DFA_in3.dfa.txt"); //输入文件
-   output.open("./DFA_out.dfa.txt"); //输出文件
+   input.open("./DFA_in3.dfa"); //输入文件
+   output.open("./DFA_out.dfa"); //输出文件
     string in,tem;
     memset(table,0,sizeof(table));
     int sum=0;
